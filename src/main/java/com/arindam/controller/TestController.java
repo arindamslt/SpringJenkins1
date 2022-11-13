@@ -10,4 +10,9 @@ public String getData()
 {
 	return "<h2>WELCOME</h2>";
 }
+	@GetMapping("/home")
+	public String getDatas()
+	{
+		return "<h2>WELCOME TO JENKINS</h2>";
+	}
 }
