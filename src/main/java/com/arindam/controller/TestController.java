@@ -15,4 +15,9 @@ public String getData()
 	{
 		return "<h2>WELCOME TO JENKINS</h2>";
 	}
+	@GetMapping("/ui")
+	public String getPipe()
+	{
+		return "<h2>WELCOME TO JENKINS PIPELINE</h2>";
+	}
 }
